@@ -2,7 +2,7 @@
 #include "hw/pci/pci.h"
 #include "qemu/module.h"
 
-#define TYPE_MY_PCI_DEV "wevel_pci"
+#define TYPE_MY_PCI_DEV "my_pci"
 #define MY_PCI(obj) OBJECT_CHECK(MyDevState, obj, TYPE_MY_PCI_DEV)
 
 
