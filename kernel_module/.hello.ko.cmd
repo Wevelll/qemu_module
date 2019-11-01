@@ -1,0 +1,1 @@
+cmd_/home/wevel/myModule/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/wevel/myModule/hello.ko /home/wevel/myModule/hello.o /home/wevel/myModule/hello.mod.o;  true
